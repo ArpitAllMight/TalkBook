@@ -1,0 +1,122 @@
+/* Responsive @ 1200px */
+@media only screen and (max-width: 1200px) {
+  .flexOne {
+    width: auto;
+  }
+  .flexOne .profile {
+    display: none;
+  }
+  .flexOne ul.sideBar li a p {
+    display: none;
+  }
+  small.notificationCount {
+    top: -20px;
+    left: 9px;
+  }
+  .flexOne .sideBar .notificationPopup p {
+    display: block;
+  }
+  .flexOne ul.sideBar li a {
+    padding: 20px;
+  }
+  .flexOne label.btn.btn-primary {
+    display: none;
+  }
+  .flexOne .sideBar {
+    margin: 0px;
+  }
+  .flexOne .notificationPopup {
+    top: -116px;
+    left: 73px;
+    width: 460px;
+  }
+  .flexOne .notificationPopup::before {
+    top: 135px;
+  }
+  .flexOne .notificationPopup .profilePic img {
+    width: 60px;
+  }
+  .flexOne .notificationPopup .column {
+    padding: 10px 18px;
+  }
+}
+/* Responsive @ 922px */
+@media only screen and (max-width: 922px) {
+  .flexBox {
+    flex-direction: row-reverse;
+    margin-right: 0;
+  }
+  .flexOne .notificationPopup {
+    left: -470px;
+  }
+  .flexOne .notificationPopup::before {
+    left: 452px;
+  }
+  .flexItem.flexThree {
+    position: absolute;
+    width: 55vw;
+    top: 82px;
+    right: 73px;
+    z-index: 1;
+    display: none;
+  }
+  .flexThree .friendRequest {
+    background: var(--color-white);
+    border-radius: var(--card-border-radius);
+    padding: var(--card-padding);
+    margin-top: 5px;
+  }
+  .flexThree .friendRequest h4 {
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  .flexThree .friendRequest .action {
+    width: 250px;
+  }
+  .customizeTheme .card {
+    width: 90%;
+  }
+}
+/* Responsive @ 600px */
+@media only screen and (max-width: 600px) {
+  .stories .story:nth-child(5),
+  .stories .story:nth-child(6) {
+    display: none;
+  }
+  .flexOne .notificationPopup {
+    width: 360px;
+    left: -370px;
+  }
+  .flexOne .notificationPopup::before {
+    left: 352px;
+  }
+}
+/* Responsive @ 430px */
+@media only screen and (max-width: 430px) {
+  header .profilePic img {
+    width: 45px;
+  }
+  header .searchBar {
+    display: none;
+  }
+  .story:nth-child(4) {
+    display: none;
+  }
+  form.createPost .profilePic {
+    display: none;
+  }
+  .flexOne .notificationPopup {
+    top: -124px;
+    width: 340px;
+    left: -352px;
+  }
+  .flexOne .notificationPopup::before {
+    top: 145px;
+    left: 333px;
+  }
+  .customizeTheme .card {
+    padding: 25px 15px;
+  }
+}
