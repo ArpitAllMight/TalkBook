@@ -120,12 +120,15 @@
   }
   .flexOne .notificationPopup {
     top: -124px;
-    width: 340px;
-    left: -352px;
+    width: 300px;
+    left: -310px;
+  }
+  .flexOne .notificationPopup .column {
+    padding: 10px 15px;
   }
   .flexOne .notificationPopup::before {
     top: 145px;
-    left: 333px;
+    left: 292px;
   }
   .customizeTheme .card {
     padding: 25px 15px;
