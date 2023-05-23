@@ -285,22 +285,22 @@ a.menuItem:last-child.active {
   z-index: 1;
 }
 .story:nth-child(1) {
-  background: url(../img/story1.jpg) no-repeat center/cover;
+  background: url(../webp/story1.webp) no-repeat center/cover;
 }
 .story:nth-child(2) {
-  background: url(../img/story2.jpg) no-repeat center/cover;
+  background: url(../webp/story2.webp) no-repeat center/cover;
 }
 .story:nth-child(3) {
-  background: url(../img/story3.jpg) no-repeat center/cover;
+  background: url(../webp/story3.webp) no-repeat center/cover;
 }
 .story:nth-child(4) {
-  background: url(../img/story4.jpg) no-repeat center/cover;
+  background: url(../webp/story4.webp) no-repeat center/cover;
 }
 .story:nth-child(5) {
-  background: url(../img/story5.jpg) no-repeat center/cover;
+  background: url(../webp/story5.webp) no-repeat center/cover;
 }
 .story:nth-child(6) {
-  background: url(../img/story6.jpg) no-repeat center/cover;
+  background: url(../webp/story6.webp) no-repeat center/cover;
 }
 /* Post In Center */
 form.createPost {
