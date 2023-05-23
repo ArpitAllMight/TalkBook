@@ -104,6 +104,17 @@
   .story:nth-child(4) {
     display: none;
   }
+  form.createPost {
+    flex-direction: column;
+    row-gap: 8px;
+  }
+  input#createPost {
+      width: 100%;
+      text-align: center;
+  }
+  input.btn.btn-primary {
+      width: 100%;
+  }
   form.createPost .profilePic {
     display: none;
   }
